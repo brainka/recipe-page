@@ -13,7 +13,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-    padding: 12.4rem 0;
+	padding: 12.4rem 0;
 
 	font-size: 1.6rem;
 
@@ -50,6 +50,7 @@ img {
 }
 
 h1 {
+	font-size: 4rem;
 	margin-bottom: 2.4rem;
 	color: black;
 }
@@ -83,8 +84,8 @@ p {
 
 ul > li,
 ol > li {
-	margin: 0.8rem;
-	line-height: 2.5rem;
+	margin-bottom: 0.8rem;
+	line-height: 2.1rem;
 }
 
 .ingredients > ul > li:last-child,
@@ -102,7 +103,7 @@ ol > li::marker {
 
 ol > li {
 	margin-left: 1.6rem;
-	padding-left: 2.4rem;
+	padding-left: 1.6rem;
 }
 
 li::marker {
