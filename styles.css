@@ -1,0 +1,139 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-color: #f3e5d7;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: 100vh; */
+
+	font-size: 1.6rem;
+
+	color: #5f564d;
+}
+
+main {
+	width: 100%;
+	max-width: 73.6rem;
+
+	padding: 4rem;
+	border-radius: 2.4rem;
+
+	background-color: white;
+}
+
+main > div {
+	margin-bottom: 2.4rem;
+}
+
+main > p {
+	line-height: 2.4rem;
+}
+
+img {
+	width: 100%;
+	background-size: cover;
+
+	height: 100%;
+	max-height: 30rem;
+
+	border-radius: 1.2rem;
+	margin-bottom: 4rem;
+}
+
+h1 {
+	margin-bottom: 2.4rem;
+	color: black;
+}
+
+h2 {
+	font-size: 2.8rem;
+	color: #854632;
+	font-weight: normal;
+
+	margin-bottom: 2.4rem;
+}
+
+p {
+	margin-bottom: 2.2rem;
+}
+
+.preparation {
+	background-color: #fff7fb;
+	border-radius: 1.2rem;
+	padding: 2.8rem;
+}
+
+.preparation > h3 {
+	color: #7a284e;
+	margin-bottom: 1.6rem;
+}
+
+.preparation > ul {
+	list-style-position: inside;
+}
+
+ul > li,
+ol > li {
+	margin: 0.8rem;
+	line-height: 2.5rem;
+}
+
+.ingredients > ul > li:last-child,
+.instructions > ol > li:last-child {
+	margin-bottom: 3.2rem;
+}
+
+ul {
+	list-style-position: inside;
+}
+
+ol > li::marker {
+	font-weight: bold;
+}
+
+ol > li {
+	margin-left: 1.6rem;
+	padding-left: 2.4rem;
+}
+
+li::marker {
+	color: #854632;
+}
+
+table {
+	width: 100%;
+}
+
+.nutrients {
+	color: #854632;
+	font-weight: bold;
+}
+
+th,
+td {
+	border-bottom: 0.1rem solid #e3ddd7;
+}
+
+tbody tr:last-child td {
+	border-bottom: none;
+}
+
+tr > td:first-of-type {
+	width: 32rem;
+	padding: 1.2rem;
+	padding-left: 3rem;
+}
+
+.ingredients,
+.instructions {
+	border-bottom: 0.1rem solid #e3ddd7;
+}
