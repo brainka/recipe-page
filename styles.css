@@ -137,3 +137,9 @@ tr > td:first-of-type {
 .instructions {
 	border-bottom: 0.1rem solid #e3ddd7;
 }
+
+@media screen and (max-width: 350px) {
+	tr > td:first-of-type {
+		width: 15rem;
+	}
+}
